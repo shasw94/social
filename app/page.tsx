@@ -1,12 +1,12 @@
 import { NavBar } from '@/components/navigation/navbar'
 import { SideBar, SidebarItem } from '@/components/sidebar/sidebar'
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
-import { faBagShopping, faDatabase, faDesktop, faGem, faHeart, faImages, faMedal, faMessage, faRectangleList, faStar, faUser, faUsers } from '@fortawesome/free-solid-svg-icons'
+import { Card, CardContent, CardDescription, CardTitle } from '@/components/ui/card'
+import { faBagShopping, faDatabase, faDesktop, faHeart, faImages, faMedal, faMessage, faRectangleList, faStar, faUser, faUsers } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import monitor from '../assets/monitor.png';
 import Image from 'next/image'
 import CardUser from '@/components/ui/card-user'
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
 import NewsFeedCard from '@/components/ui/news-feed-card'
 
 export default function Home() {
@@ -34,7 +34,7 @@ export default function Home() {
                   <FontAwesomeIcon icon={faHeart} color='white' />
                 </div>
               </div>
-              <div className='w-1/6 md:w-1/12'>
+              <div className='w-1/6'>
                 <Image src={monitor} alt='Monitor Image' className='' style={{ objectFit: 'cover' }} />
               </div>
               <div className='flex items-center text-white my-4 md:my-8 md:right-[160px]'>
@@ -50,10 +50,10 @@ export default function Home() {
                 <Card className='w-full h-full'>
                   <CardContent className='flex items-center justify-between pb-0'>
                     <CardDescription className='flex justify-between items-center w-full h-full mt-4 text-black'>
-                      <div className="text h-full pb-4 md:pb-0 border-b-4 border-[#09D0DE] text-bold">
+                      <div className="text h-full pb-4 border-b-4 border-[#09D0DE] text-bold">
                         All Updates
                       </div>
-                      <div className="mb-4 md:mb-0">
+                      <div className="mb-4">
                         <DropdownMenu>
                           <DropdownMenuTrigger>Show Everything</DropdownMenuTrigger>
                           <DropdownMenuContent>

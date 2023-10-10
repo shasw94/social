@@ -1,18 +1,27 @@
-This is a Sample design implemented for a social media app. To run the project in development mode, you will require Node.js, and NPM.
+This is a Sample design implemented for a social media app. It uses Next.js framework to build the UI components. This is a design template.
+
+### Requirements
+
+To run the project in development mode, you will require Node.js, and npm
+- Node.js
+- npm
 
 ## Getting Started
 
 First, run the development server:
 
-Firstly, install all the packages required by executing the following command in the root directory
+Firstly, clone the repository and then install all the packages required by executing the following command in the root directory
 
-```bash 
+```bash
+git clone https://github.com/shasw94/social.git
 npm install
 ```
 
 ### Packages that will be installed
 - FontAwesome: Icons' library
 - Tailwind CSS: CSS library for bootstraping CSS classes 
+
+Finally, run
 
 ```bash
 npm run dev
