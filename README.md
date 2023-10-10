@@ -1,6 +1,6 @@
 This is a Sample design implemented for a social media app. It uses Next.js framework to build the UI components. This is a design template.
 
-![design image](https://drive.google.com/file/d/1xQhvv3Qjqpk8fiycD5u0YdjPzCQnWJdJ/view)
+[Design Image](https://drive.google.com/file/d/1xQhvv3Qjqpk8fiycD5u0YdjPzCQnWJdJ/view)
 ### Requirements
 
 To run the project in development mode, you will require Node.js, and npm
