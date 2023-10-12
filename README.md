@@ -6,12 +6,14 @@ This is a Sample design implemented for a social media app. It uses Next.js fram
 To run the project in development mode, you will require Node.js, and npm
 - Node.js
 - npm
+- bcryptjs
+- jsonwebtoken
+- axios
+- zod
 
 ## Getting Started
 
-First, run the development server:
-
-Firstly, clone the repository and then install all the packages required by executing the following command in the root directory
+Firstly, clone the repository and then install all the packages required by executing the following commands in the root directory of the project
 
 ```bash
 git clone https://github.com/shasw94/social.git
@@ -22,6 +24,8 @@ Then browse to the folder and then execute.
 ```bash
 npm install
 ```
+
+Now, copy the sample.env file and name the new file as .env, and put in the actual values of environment variables in the same format as in the file sample.env
 
 ### Packages that will be installed
 - FontAwesome: Icons' library
