@@ -1,8 +1,9 @@
+import { faBagShopping, faDatabase, faDesktop, faHeart, faImages, faMedal, faMessage, faRectangleList, faStar, faUser, faUsers } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import { NavBar } from '@/components/navigation/navbar'
 import { SideBar, SidebarItem } from '@/components/sidebar/sidebar'
 import { Card, CardContent, CardDescription, CardTitle } from '@/components/ui/card'
-import { faBagShopping, faDatabase, faDesktop, faHeart, faImages, faMedal, faMessage, faRectangleList, faStar, faUser, faUsers } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import monitor from '../assets/monitor.png';
 import Image from 'next/image'
 import CardUser from '@/components/ui/card-user'
@@ -29,7 +30,7 @@ export default function Home() {
         <div className='flex w-full justify-center'>
           <div className='w-full md:w-9/12'>
             <Card className="mx-auto w-full mt-8 h-fit flex bg-gradient-to-r from-bl from-10% to-skybl relative">
-              <div className='absolute w-1/6 md:w-1/12 flex justify-end top-[-10px] left-[10px]'>
+              <div className='absolute w-1/6 flex justify-end top-[-10px] left-[10px]'>
                 <div className='rounded-full bg-[#FF2F59] w-10 h-10 flex items-center justify-center z-10 l-20'>
                   <FontAwesomeIcon icon={faHeart} color='white' />
                 </div>

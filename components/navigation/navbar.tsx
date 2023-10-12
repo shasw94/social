@@ -15,6 +15,7 @@ import { Input } from "../ui/input";
 import { Button } from "../ui/button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBorderAll, faCalendarDays, faGraduationCap, faRobot } from "@fortawesome/free-solid-svg-icons";
+import { useRouter } from "next/navigation";
 
 const features: { title: string; href: string; description: string }[] = [
     {
@@ -55,6 +56,7 @@ const features: { title: string; href: string; description: string }[] = [
 ]
 
 export function NavBar() {
+    const router = useRouter();
     return (
         <NavigationMenu className="bg-[#5D5DF5]">
             <NavigationMenuList className="bg-[#5D5DF5]">
@@ -133,7 +135,7 @@ export function NavBar() {
                     </div>
                     <div className="px-4">
                         <NavigationMenuItem>
-                            <Button type="submit" className="">
+                            <Button type="submit" className="" onClick={()=>router.push('/login')}>
                                 Login
                             </Button>
                         </NavigationMenuItem>
