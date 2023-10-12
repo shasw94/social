@@ -6,10 +6,6 @@ This is a Sample design implemented for a social media app. It uses Next.js fram
 To run the project in development mode, you will require Node.js, and npm
 - Node.js
 - npm
-- bcryptjs
-- jsonwebtoken
-- axios
-- zod
 
 ## Getting Started
 
@@ -29,7 +25,11 @@ Now, copy the sample.env file and name the new file as .env, and put in the actu
 
 ### Packages that will be installed
 - FontAwesome: Icons' library
-- Tailwind CSS: CSS library for bootstraping CSS classes 
+- Tailwind CSS: CSS library for bootstraping CSS classes
+- bcryptjs
+- jsonwebtoken
+- axios
+- zod
 
 Finally, run
 
